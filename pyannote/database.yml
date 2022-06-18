@@ -20,6 +20,20 @@ Protocols:
             uri: ../lists/test.meetings.txt
             annotation: ../only_words/rttms/test/{uri}.rttm
             annotated: ../uems/test/{uri}.uem
+
+      mini:
+        train:
+          uri: ../lists/train.mini.txt
+          annotation: ../only_words/rttms/train/{uri}.rttm
+          annotated: ../uems/train/{uri}.uem
+        development:
+          uri: ../lists/dev.mini.txt
+          annotation: ../only_words/rttms/dev/{uri}.rttm
+          annotated: ../uems/dev/{uri}.uem
+        test:
+          uri: ../lists/test.mini.txt
+          annotation: ../only_words/rttms/test/{uri}.rttm
+          annotated: ../uems/test/{uri}.uem
  
       word_and_vocalsounds:
         train:
