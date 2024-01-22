@@ -6,7 +6,7 @@ This will download the AMI corpus MixHeadset files into `AMI-diarization-setup/p
 
 ```bash
 cd AMI-diarization-setup/pyannote
-sh download_ami.sh
+bash download_ami.sh
 ```
 
 ## Use AMI diarization setup proposed by BUT
